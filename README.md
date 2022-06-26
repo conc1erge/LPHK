@@ -1,5 +1,26 @@
 # LPHK (LaunchPad HotKey)
-A Novation Launchpad macro scripting system.
+A Novation Launchpad macro scripting system with added support for the Midi Fighter 64
+
+## NOTE!!!
+I (conc1erge) added Midi Fighter 64 support. Nothing else. Though, it is a quite newbish implementation as I didn't have any prior experience 
+with Python and just trusted my logic. (I also have 0 experience in using GitHub, so please bare with me.)
+
+## How to build
+1. Confirm you are on Windows
+2. Download the latest version of Python3 via the [Windows Store](https://apps.microsoft.com/store/detail/python-39) or preferably the [official website](https://www.python.org/downloads/)
+3. Clone/Download the fork's source code.
+4. Extract it.
+5. Inside the INSTALL folder, run `install_conda_windows.bat`, this will install Miniconda3 for you.
+6. After Miniconda3 has been installed, run `install_build_env.bat`, this will make a build environment for the project.
+7. After your build environment has been built, run `build_pyinstall_portable.bat`, this will make a runnable .exe file containing LPHK.
+8. Inside the root LPHK folder, a new folder called `dist` should be there, inside contains the LPHK executable.
+9. Run the executable.
+
+If your Anti-Virus detected something fishy in the LPHK folder or from downloading the source code, this [link](https://github.com/nimaid/LPHK/issues/114) should explain why. Exempt it from your AV.
+
+Now, I will say to PLEASE, **PLEASE** SUPPORT THE ORIGINAL LPHK PROJECT, nimaid (through Patreon) AND THE OTHER CONTRIBUTORS!
+
+The rest of the README.md is the original README.md directly from the LPHK GitHub project.
 
 <img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/LPHK_update_4.png" alt="Update 4"/>
 
