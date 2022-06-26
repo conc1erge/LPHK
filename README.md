@@ -5,6 +5,13 @@ A Novation Launchpad macro scripting system with added support for the Midi Figh
 I (conc1erge) added Midi Fighter 64 support. Nothing else. Though, it is a quite newbish implementation as I didn't have any prior experience 
 with Python and just trusted my logic. (I also have 0 experience in using GitHub, so please bare with me.)
 
+My scope of the project was for LPHK to recognize the MF64 so I can use it with a web based rhythm game.
+
+The layout is shifted up by one row, so if you have any existing layouts, you must shift the main pads up by one row!
+![image](https://user-images.githubusercontent.com/29669519/175805249-255d65b7-bb48-46ab-9547-4865dfd30b12.png)
+
+There is also no lights whatsoever! Blame DJTT for not giving the MF64 the potential to use RGB color codes!
+
 ## How to build
 1. Confirm you are on Windows
 2. Download the latest version of Python3 via the [Windows Store](https://apps.microsoft.com/store/detail/python-39) or preferably the [official website](https://www.python.org/downloads/)
