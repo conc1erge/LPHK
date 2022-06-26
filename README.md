@@ -1,4 +1,4 @@
-# LPHK (LaunchPad HotKey)
+# LPMFHK (LaunchPad MidiFighter HotKey)
 A Novation Launchpad macro scripting system with added support for the Midi Fighter 64
 
 ## NOTE!!!
