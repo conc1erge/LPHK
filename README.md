@@ -5,7 +5,7 @@ A fork of the [Novation Launchpad macro scripting system](https://github.com/nim
 I (conc1erge) added Midi Fighter 64 support. Nothing else. Though, it is a quite newbish implementation as I didn't have any prior experience 
 with Python and just trusted my logic. (I also have 0 experience in using GitHub, so please bare with me.)
 
-My scope of the project was for LPHK to recognize the MF64 so I can use it with a web based rhythm game.
+My scope of the project was for LPHK to recognize the MF64 so I can use it with a web based rhythm game called [Pulsus](https://tetrogem.itch.io/pulsus).
 
 The layout is shifted up by one row, so if you have any existing layouts, you must shift the main pads up by one row!
 ![image](https://user-images.githubusercontent.com/29669519/175805249-255d65b7-bb48-46ab-9547-4865dfd30b12.png)
