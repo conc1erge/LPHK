@@ -8,20 +8,23 @@ LPX_NAME = "lpx"
 CTRL_XL_NAME = "control xl"
 LAUNCHKEY_NAME = "launchkey"
 DICER_NAME = "dicer"
+MF64_NAME = "Midi Fighter 64"
 
 PAD_MODES = {
     launchpad.Launchpad: "Mk1",
     launchpad.LaunchpadMk2: "Mk2",
     launchpad.LaunchpadMiniMk3: "Mk3",
     launchpad.LaunchpadPro: "Pro",
-    launchpad.LaunchpadLPX: "Mk3"
+    launchpad.LaunchpadLPX: "Mk3",
+    launchpad.MidiFighter64: "64"
 }
 PAD_TEXT = {
     launchpad.Launchpad: "Classic/Mini/S",
     launchpad.LaunchpadMk2: "MkII",
     launchpad.LaunchpadMiniMk3: "Mk3",
     launchpad.LaunchpadPro: "Pro (BETA)",
-    launchpad.LaunchpadLPX: "LPX"
+    launchpad.LaunchpadLPX: "LPX",
+    launchpad.MidiFighter64: "Midi Fighter 64 (DEV)"
 }
 
 
@@ -37,6 +40,8 @@ def get_launchpad():
         return launchpad.LaunchpadPro()
     if lp.Check(1, LPX_NAME):
         return launchpad.LaunchpadLPX()
+    if lp.Check(0, MF64_NAME):
+        return launchpad.MidiFighter64()
 
     # unsupported pads
     if lp.Check(0, CTRL_XL_NAME) or lp.Check(0, LAUNCHKEY_NAME) or lp.Check(0, DICER_NAME):

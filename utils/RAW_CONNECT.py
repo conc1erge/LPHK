@@ -10,6 +10,7 @@ PRO_NAME = "Launchpad Pro"
 CTRL_XL_NAME = "control xl"
 LAUNCHKEY_NAME = "launchkey"
 DICER_NAME = "dicer"
+MF64_NAME = "Midi Fighter 64"
 
 print("\nTrying to connect to launchpad...")
 

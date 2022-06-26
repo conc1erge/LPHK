@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./INSTALL/src/launchpad-py/launchpad_py",
+        "./INSTALL/src/launchpad-py"
+    ]
+}

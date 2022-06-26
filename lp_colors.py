@@ -122,6 +122,10 @@ def updateXY(x, y):
                 if type(set_color) is int:
                     set_color = code_to_RGB(set_color)
                 lp_object.LedCtrlXY(x, y, set_color[0] // 64, set_color[1] // 64)
+            elif window.lp_mode == "64":
+                if type(set_color) is int:
+                    set_color = code_to_RGB(set_color)
+                lp_object.LedCtrlXY(x, y, set_color[0] // 64, set_color[1] // 64)
             else:
                 if (color_modes[x][y] == "solid") or is_func_key:
                     # pulse and flash only work on main grid
@@ -156,6 +160,8 @@ def raw_clear():
     for x in range(9):
         for y in range(9):
             if window.lp_mode == "Mk1":
+                lp_object.LedCtrlXY(x, y, 0, 0)
+            elif window.lp_mode == "64":
                 lp_object.LedCtrlXY(x, y, 0, 0)
             else:
                 lp_object.LedCtrlXYByCode(x, y, 0)

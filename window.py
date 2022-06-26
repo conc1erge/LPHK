@@ -197,8 +197,24 @@ class Main_Window(tk.Frame):
 
             lp_object.ButtonFlush()
 
+            if lp_mode == "64":
+                self.popup(self, "Connect to Midi Fighter 64", self.error_image,
+                           """This is a DEVELOPMENT feature! The MF64 is not fully supported yet, as the top and left rows are not present on the 64.
+                           None of the LPHK developers have access to the MIDI Fighter 64, thus the support is done by someone who's never coded in Python 
+                           and used common sense to build this. Do note that your layout has to be shifted up by one row. If you can help conc1erge#9394 fix this, add him or
+                           ping him in the LPHK Discord.
+                           You must first set your MF64 to Channel 3. To do this, (download and) open the Midi Fighter Utility
+                           then under the channel setting, set it to Channel 3. Please only continue once this step is completed.""",
+                           "I am using Channel 3.")
+
+            lp_object.ButtonFlush()
+
             # special case?
-            if lp_mode != "Mk1":
+            if lp_mode == ("Pro"):
+                lp_object.LedCtrlBpm(INDICATOR_BPM)
+            if lp_mode == ("Mk2"):
+                lp_object.LedCtrlBpm(INDICATOR_BPM)
+            if lp_mode == ("Mk3"):
                 lp_object.LedCtrlBpm(INDICATOR_BPM)
 
             lp_events.start(lp_object)
