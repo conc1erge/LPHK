@@ -10,7 +10,7 @@ My scope of the project was for LPHK to recognize the MF64 so I can use it with 
 The layout is shifted up by one row, so if you have any existing layouts, you must shift the main pads up by one row!
 ![image](https://user-images.githubusercontent.com/29669519/175805249-255d65b7-bb48-46ab-9547-4865dfd30b12.png)
 
-There is also no lights whatsoever! Blame DJTT for not giving the MF64 the potential to use RGB color codes!
+There is also no full RGB lights whatsoever! Blame DJTT for not giving the MF64 the potential to use RGB color codes!
 
 ## How to build
 1. Confirm you are on Windows
