@@ -1,5 +1,5 @@
 # LPMFHK (LaunchPad MidiFighter HotKey)
-A fork of the [Novation Launchpad macro scripting system](https://github.com/nimaid/LPHK) with added support for the Midi Fighter 64
+A fork of the [Novation Launchpad macro scripting system](https://github.com/nimaid/LPHK) with added support for the [Midi Fighter 64](https://midifighter.com/#64)
 
 ## NOTE!!!
 I (conc1erge) added Midi Fighter 64 support. Nothing else. Though, it is a quite newbish implementation as I didn't have any prior experience 
